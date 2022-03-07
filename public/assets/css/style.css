@@ -1,0 +1,160 @@
+body {
+  background: #ffddd2;
+  color: #006d77;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background: #edf6f9;
+  text-align: center;
+  padding: 40px;
+}
+
+header h1 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+main {
+  background: #edf6f9;
+  padding: 20px;
+}
+
+main div {
+  background: #83c5be;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#lazmand {
+  background-color: sandybrown;
+  font-family: Verdana;
+  color: black;
+  text-shadow: 0 0 3px #bdbdbd;
+}
+
+#rbelme {
+  background-color: lightslategrey;
+  color: azure;
+  text-decoration: underline;
+  border: groove 10px white;
+}
+
+#badalal {
+}
+
+#jedasilva {
+}
+
+#ddawar1 {
+}
+
+#jdraper1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 60px;
+  color: darkred;
+  text-shadow: 2px 2px #ff0000;
+  background-image: url("/assets/images/Jay Draper.jpg");
+  background-position: bottom 220px right 0px;
+  background-size: 100%;
+}
+
+#lelangovan {
+}
+
+#dfilipovic1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  background-image: url("https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg");
+  background-color: #e29578;
+}
+
+#fhassanzadeh-naderi {
+  font-family: 'Dancing Script', cursive;
+  font-size: 27px;
+  background: #222;
+  color: lightgoldenrodyellow;
+}
+
+#gjones11 {
+}
+
+#ljong1 {
+}
+
+#fkeita {
+}
+
+#rlaronde {
+}
+
+#kklee14 {
+  background-color: #df2544;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+#amanda.lutz {
+}
+
+#dpmarquez {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:24px;
+  background-color: grey;
+  color: yellow;
+}
+
+#bjmartin-leon {
+  background-color: #6cd0ff;
+  color: white;
+  border: 2px dashed white;
+}
+
+#jmorash {
+}
+
+#ssraiba {
+}
+
+#isantiago-gonzalez {
+  background-color: #1a1e20;
+  color: white;
+}
+
+#asantiago-rossetti {
+}
+
+#hsoleymaniha {
+}
+
+#trushtika {
+}
+
+footer {
+  text-align: center;
+  background: #ffddd2;
+  color: #e29578;
+  padding: 40px;
+  border-top: 2px solid #e29578;
+}
+
+@media (min-width: 650px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main p {
+    width: 100%;
+  }
+  main div {
+    width: calc(33.3333% - 50px);
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "inm420-gitassignment",
+  "version": "1.0.0",
+  "description": "Seneca INM420 Git Assignment",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Amanda Lutz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaLutzTO/inm420-git-assignment.git"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "bugs": {
+    "url": "https://github.com/AmandaLutzTO/inm420-git-assignment/issues"
+  },
+  "homepage": "https://github.com/AmandaLutzTO/inm420-git-assignment#readme",
+  "main": "index.js"
+}
